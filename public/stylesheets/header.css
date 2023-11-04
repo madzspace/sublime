@@ -1,0 +1,790 @@
+.description {
+  font-size: 15px;
+  color: #FE6D76;
+}
+
+.bannerpink {
+  background-color: #FFECEC;
+  /* Adjust the width as needed */
+}
+
+.container1 {
+  background-color: #FFECEC;
+  text-align: center;
+}
+
+.navbarLog {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  /* Add padding on all sides */
+}
+
+.navbarLog a {
+  font-family: Arial, sans-serif;
+  font-size: 1vw;
+  /* Adjust font size based on the viewport width */
+  margin: 0 10px;
+  /* Add margin to separate links */
+  display: inline-block;
+  color: #68587C;
+  text-decoration: none;
+  padding: .5px 21px;
+  transition: transform 0.2s ease;
+}
+
+/* Media query for smaller screens (e.g., when the screen width is 600px or less) */
+@media (max-width: 600px) {
+  .custom-container1 {
+    width: 10%;
+    /* Adjust width for small screens */
+  }
+
+  .d-inline-block2 {
+    max-width: 50%;
+    height: 100px;
+  }
+
+  .description {
+    font-size: 13px;
+    color: #FE6D76;
+    margin-top: -5px;
+  }
+
+}
+
+/* edited */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #C7F2E9;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 0px;
+  font-size: 13px;
+  height: 23px;
+  /* Use a positive value here */
+}
+
+/* .container {
+    text-align: center;
+    padding: 10px;
+  width: 100%;
+  } */
+
+.custom-container {
+  background-color: #FFECEC;
+  width: 100%;
+  /* Adjust the width as needed */
+
+}
+
+
+
+
+
+
+
+/* .d-inline-block2 {
+  width: 275px;
+  height: 125px;
+} */
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .container1 {
+    height: 18vh;
+    /* Adjust the height for small windows (e.g., 10% of viewport height) */
+  }
+}
+
+.container3 {
+  background-color: #C7F2E9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.3vw;
+  /* Adjust the padding size relative to viewport width (vw) */
+}
+
+@media (max-width: 768px) {
+  .container3 {
+    height: 15vh;
+    /* Adjust the height for small windows (e.g., 10% of viewport height) */
+  }
+}
+
+.container4 {
+  background-color: #FFECEC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vw;
+  /* Adjust the padding size relative to viewport width (vw) */
+  height: 50vh;
+  /* Default height relative to viewport height (vh) for larger windows */
+}
+
+/* Media Query for Small Windows */
+@media (max-width: 768px) {
+  .container4 {
+    height: 20vh;
+    /* Adjust the height for small windows (e.g., 10% of viewport height) */
+  }
+}
+
+.container5 {
+  background-color: #C7F2E9;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  box-sizing: border-box;
+  height: 500px;
+}
+
+.transparent-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 23%;
+  /* Adjust the percentage as needed */
+  height: 50%;
+  /* Adjust the percentage as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5vh;
+  /* Adjust the percentage to leave a margin relative to viewport height */
+  left: 3vw;
+  /* Adjust the percentage to leave a margin relative to viewport width */
+  border-radius: 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.image-container5 {
+  margin-left: -10%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+.image-container5 {
+  width: 75%;
+  /* Adjust the percentage as needed */
+  height: 75%;
+  /* Adjust the percentage as needed */
+  max-width: 100%;
+  /* Make the image responsive */
+  height: auto;
+  /* Maintain the aspect ratio */
+  box-sizing: border-box;
+}
+
+.image-container5 .image-container:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.image-container5 .image-container {
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 350px;
+  /* Make the images bigger */
+  height: auto;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  position: relative;
+  left: 100px;
+  box-sizing: border-box;
+}
+
+.image-container5 .image-container:hover .img:hover {
+  transform: scale(1);
+  /* Slightly increase size on hover */
+  opacity: 0.9;
+  box-sizing: border-box;
+}
+
+.image-container5 .image-container .client-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: scale(1.1);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  color: #68587C;
+  font-size: clamp(1vw, 1vw, 15px);
+  /* Use 'clamp' to set min and max font sizes with viewport units */
+  font-style: italic;
+  font-size: .8vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  /* Align text to the top */
+  justify-content: center;
+  border-radius: 20px;
+  word-wrap: break-word;
+  padding: 10px;
+  /* Add space around the words */
+  box-sizing: border-box;
+  /* Include padding in the element's width and height */
+}
+
+.image-container5 .image-container:hover .client-info {
+  opacity: 1;
+  transform: scale(1.05);
+  /* Maintain size on hover */
+  z-index: 1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+/* Media Query for Large Windows */
+@media (min-width: 1200px) {
+  .image-container5 {
+    margin-left: 20%;
+    /* Adjust the margin for large windows */
+  }
+}
+
+.client-info {
+  margin-left: 60px;
+
+}
+
+.header {
+  font-size: 3.2vw;
+  font-weight: bold;
+  font-family: 'Your New Font', sans-serif;
+  color: #68587C;
+}
+
+.by-fionna {
+  font-size: 16px;
+  color: #68587C;
+}
+
+
+
+.caption {
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #68587C;
+  margin-bottom: 10px;
+}
+
+/* Media Query for Small Windows */
+@media (max-width: 768px) {
+  .caption {
+    font-size: 3vw;
+    margin-top: -40px;
+    /* Adjust the margin for small windows */
+  }
+}
+
+.captionB {
+  margin-top: -55px;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #68587C;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .captionB {
+    margin-top: -25px;
+    /* Adjust the margin for small windows */
+    font-size: 3vw;
+  }
+}
+
+
+.caption1 {
+  font-size: 30px;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #68587C;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .caption1 {
+    font-size: 3vw;
+    /* Adjust font size for smaller screens */
+    margin-left: 10px;
+    /* Adjust margin for smaller screens */
+  }
+}
+
+.sub-caption {
+  font-size: 16px;
+  color: #FE6D76;
+  margin-bottom: 20px;
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .navbarLog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbarLog a {
+    font-size: 3vw;
+    /* Adjust the font size for smaller screens */
+    padding: 8px 20px;
+    /* Adjust the padding as needed */
+    margin: 3px 6px;
+    /* Add margin to separate links */
+  }
+}
+
+.navbarLog a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+  background-color: #F7DADA;
+  transition: height 0.2s ease;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.navbarLog a:hover {
+  transform: translateY(-1px) scale(1.1);
+  /* Tweak the translateY value */
+}
+
+.navbarLog a:hover::before {
+  height: 100%;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.footer-bottom {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 0.1px 0;
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    padding: 3px 0;
+    /* Adjust padding for smaller screens */
+    font-size: 80%;
+    /* Adjust font size if needed for smaller screens */
+    align-items: center;
+
+  }
+}
+
+@media (max-width: 768px) {
+
+  .quote-btn,
+  .custom-btn {
+    margin-top: .3vh;
+    /* Adjust margin for smaller screens */
+    border-radius: 2vw;
+    /* Adjust border-radius for smaller screens */
+    padding: 1vh 4vw;
+    /* Adjust padding for smaller screens */
+    font-size: 2vw;
+    /* Adjust font-size for smaller screens */
+  }
+}
+
+.image-container {
+  flex: 1;
+  text-align: left;
+
+}
+
+.image-container1 {
+  flex: 1;
+  text-align: right;
+}
+
+/* .flower-image {
+  border-radius: 25px;
+  max-width: 65%;
+  margin-left: 60px;
+  height: auto;
+  transition: transform 0.3s ease;
+} */
+
+.flower-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.center-content {
+  margin-top: 100px;
+  flex: 1;
+  text-align: center;
+  width: 80vw;
+  /* Set width relative to the viewport width */
+  height: 15vh;
+  /* Set height relative to the viewport height */
+}
+
+
+/* Style for the close button */
+#close-btn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+}
+
+/* Style for the close button text (X) */
+
+@media (max-width: 768px) {
+  .see-btn {
+    padding: 2% 8%;
+    /* Adjust the padding for smaller screens */
+    font-size: 3vw;
+    /* Adjust the font size for smaller screens */
+  }
+}
+
+.contact-container {
+  background-color: #FFFFFF;
+  /* Background color for the contact container */
+  padding: .5em;
+  /* Padding around the contact information */
+  border: 1px solid #CCCCCC;
+  /* Border for the contact container */
+  opacity: 90%;
+  text-align: center;
+  /* Center-align the contact information */
+}
+
+.contact-container h2 {
+  font-size: 20px;
+  /* Heading font size */
+  color: #333333;
+  /* Heading text color */
+  margin-bottom: 15px;
+  /* Spacing below the heading */
+  margin-top: 25px;
+}
+
+.contact-columns {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-column {
+  flex: 1;
+  padding: 10px;
+  /* Adjust padding as needed */
+}
+
+.contact-column p {
+  font-size: 14px;
+  /* Text font size */
+  color: #555555;
+  /* Text color */
+  margin: 5px 0;
+  /* Spacing between each contact information line */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .contact-container h2 {
+    font-size: 18px;
+    /* Decrease font size for smaller screens */
+  }
+
+  .contact-column p {
+    font-size: 12px;
+    /* Decrease font size for smaller screens */
+  }
+}
+
+.login-link {
+  float: right;
+  /* Float the login link to the right */
+  margin-right: 20px;
+  /* Add some margin to separate it from other links */
+  font-weight: bold;
+  /* Add bold font style */
+  margin-top: 7px;
+}
+
+/* Adjust styles for smaller screens if needed */
+@media (max-width: 768px) {
+
+  /* Adjust the max-width value as needed */
+  .navbarLog {
+    text-align: right;
+    /* Align the text to the right */
+  }
+
+  /* Style for the login link on smaller screens */
+  .login-link {
+    float: none;
+    /* Remove float to allow it to flow within the navbar */
+    display: inline-block;
+    /* Display as inline-block to fit within the navbar */
+    margin: 0;
+    /* Reset margin to avoid extra spacing */
+    margin-left: 20px;
+    margin-top: 4px;
+
+  }
+}
+
+.login-dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+.login-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+  top: 100%;
+  /* Align the dropdown below the login link */
+  border-radius: 15px;
+}
+
+.login-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.login-content ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+.custom-image {
+  width: 26px;
+  /* Set the width */
+  height: 26px;
+  /* Set the height */
+  /* You can add additional styles as needed */
+}
+
+.custom-image {
+  width: 27px;
+  /* Set the width */
+  height: 27px;
+  /* Set the height */
+  /* Additional styles for when not hovering */
+  transition: transform 0.2s ease;
+  /* Add a smooth transition effect */
+}
+
+.custom-image:hover {
+  transform: scale(1.2);
+  /* Scale up the image when hovering */
+  /* Additional styles for when hovering */
+}
+
+
+/*NEW FROM KAREN*/
+#custom_dropdown .btn-secondary {
+  background-color: #FFB6C2;
+  border: none;
+  color: black;
+}
+
+#custom_dropdown .dropdown-item:hover {
+  background-color: #FFB6C2;
+}
+
+#custom_dropdown .dropdown-item:hover {
+  background-color: #FFB6C2;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.d-inline-block {
+  max-width: 35%;
+  height: 30px;
+}
+
+.responsive-image {
+  width: 40%;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  /* Remove extra space below image */
+
+}
+
+/* Media query for adjusting the image size on smaller screens */
+@media (max-width: 800px) {
+  .responsive-image {
+    width: 100%;
+    /* Adjust the max-width for smaller screens as needed */
+    height: 35%;
+  }
+}
+
+
+/*custom selection page-#C2F8E8*/
+#cards_landscape_wrap-2 {
+  text-align: center;
+  background: #fce2e4;
+  padding: 20px;
+}
+
+#cards_landscape_wrap-2 .container {
+  padding-top: 50px;
+  padding-bottom: 110px;
+}
+
+#cards_landscape_wrap-2 a {
+  text-decoration: none;
+  outline: none;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 5px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box {
+  background: #00ffea;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+  border-radius: 5px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box img {
+  -webkit-transition: all .9s ease;
+  -moz-transition: all .9s ease;
+  -o-transition: all .9s ease;
+  -ms-transition: all .9s ease;
+  width: 100%;
+  height: 200px;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+  opacity: 0.7;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box {
+  text-align: center;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+  padding: 30px 18px;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+  background: #FFFFFF;
+  margin-top: 50px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover {
+  background: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-top: 50px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box h6 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Gabarito", sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 1px #033331;
+  color: #3CBCBE;
+  /*#3CBCBE*/
+}
+
+#cards_landscape_wrap-2 .btn-primary {
+  background-color: #3CBCBE;
+  border: none;
+  color: white;
+}
+
+#cards_landscape_wrap-2 .btn-primary:hover {
+  background-color: pink;
+  border: none;
+}
+
+.h1custom
+
+/*#3CBCBE*/
+  {
+  color: #3CBCBE;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 100px;
+  position: relative;
+  display: inline-block;
+  font-size: 48px;
+  text-shadow: 2px 2px 1px black;
+}
+
+/*underline effect*/
+.h1custom::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(58, 58, 58);
+}

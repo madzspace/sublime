@@ -1,0 +1,79 @@
+<div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample">My Cart</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                </form>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <ion-icon name="person-circle-outline" size="medium" style="color: rgb(255, 255, 255)"></ion-icon> User
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><button class="dropdown-item" type="button" onclick="location.href='Login.html'"><ion-icon
+                                    name="log-in-outline" size="medium" style="color: #676767"></ion-icon> Login</button>
+                        </li>
+                        <li><button class="dropdown-item" type="button" onclick="location.href='SignUp.html'"><ion-icon
+                                    name="person-add-outline" size="medium" style="color: #676767"></ion-icon> Create
+                                Account</button></li>
+                        <li><button class="dropdown-item" type="button"><ion-icon name="checkbox-outline" size="medium"
+                                    style="color: #676767"></ion-icon> Bookings</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--'My Cart' toggle menu-->
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">My Cart</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Your cart is empty!<br><br><br>
+                <img src="https://static-00.iconduck.com/assets.00/shopping-cart-icon-1024x922-v1h57bbw.png" width="100"
+                    height="100" class="d-inline-block align-text-top" alt="Sublime by Fionna"
+                    style="margin-top: -15px; margin-left: 90px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="row container1 bannerpink pt-3 pb-3">
+        <h1>
+            <img src="/images/home/sublimeLogo.png"
+                width="275" height="125" alt="Sublime by Fionna" class="d-inline-block2 align-text-top">
+        </h1>
+        <p class="description">Curating Flowers for Weddings and Special Occasions</p>
+
+    </div>
+    
+    <nav class="navbarLog">
+        <a href="#">Home</a>
+        <a href="#">Gallery</a>
+        <a href="#">Package</a>
+        <a href="#">Book now</a>
+        <a href="#">Messages</a>
+    </nav>
+
+</div>
+
+
+<!-- watch: https://www.youtube.com/watch?v=esy4nRuShl8&t=308s -->
